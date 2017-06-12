@@ -31,7 +31,7 @@ class Ejercicio_1
     puts "Ingresa un numero"
     number_2 = gets.to_i
     for i in 1..number_1
-      adittion = adittion + number_2
+      adittion += number_2
     end
     return adittion
   end
@@ -40,8 +40,8 @@ class Ejercicio_1
     number = gets.to_i
     fact = 1
     while number > 1
-      fact = fact * number
-      number = number - 1
+      fact *= number
+      number -= 1
     end
     return fact
   end
